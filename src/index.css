@@ -1,0 +1,49 @@
+:root {
+  --highlight-theme: #1c1c24;
+  --deep-theme: #13131a;
+  --divider: #393944;
+  --label: #b4b4be;
+  --overlay-theme: #292932;
+  --white: #fafafb;
+  --dim-gray: #92929d;
+  --medium-gray: #44444f;
+  --light-blue: #4fb5ff;
+  --red: #fd595a;
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  scrollbar-color: var(--medium-gray) transparent !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.ant-select-dropdown {
+  padding: unset;
+}
+
+.ant-drawer:focus-visible {
+  outline: none !important;
+}
+
+.ant-spin-dot-spin {
+  color: var(--white) !important;
+}

@@ -1,0 +1,12 @@
+.input {
+  color: var(--white);
+}
+
+.input::placeholder {
+  color: var(--dim-gray);
+}
+
+.input__sink {
+  border: 1px solid transparent;
+  background-color: var(--deep-theme);
+}

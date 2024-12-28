@@ -1,0 +1,62 @@
+.select :global .ant-select-selector {
+  border: 1px solid transparent !important;
+  background-color: var(--deep-theme) !important;
+  color: var(--white) !important;
+}
+
+.select :global .ant-select-selection-search-input {
+  color: var(--white) !important;
+}
+
+.select :global .ant-select-selection-placeholder {
+  color: var(--dim-gray) !important;
+}
+
+.select :global .ant-select-arrow {
+  color: var(--white) !important;
+}
+
+.select :global .ant-select-focused {
+  color: var(--white) !important;
+}
+
+.select :global .ant-select-selection-item {
+  color: var(--white) !important;
+}
+
+.options {
+  background-color: var(--deep-theme) !important;
+}
+
+.options :global .ant-select-item-option {
+  background-color: var(--deep-theme);
+}
+
+.options :global .ant-select-item-option:hover {
+  background-color: var(--medium-gray);
+}
+
+.options :global .ant-select-item-option-selected {
+  background-color: var(--medium-gray) !important;
+  color: var(--white);
+}
+
+.select_transparent :global .ant-select-selector {
+  background-color: transparent !important;
+}
+
+.options_transparent {
+  background-color: var(--highlight-theme) !important;
+}
+
+.options_transparent :global .ant-select-item-option {
+  background-color: var(--highlight-theme) !important;
+}
+
+.options_transparent :global .ant-select-item-option:hover {
+  background-color: var(--medium-gray) !important;
+}
+
+.options_transparent :global .ant-select-item-option-selected {
+  background-color: var(--medium-gray) !important;
+}

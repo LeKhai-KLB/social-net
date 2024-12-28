@@ -1,0 +1,13 @@
+.avatar {
+  border: 0.2px solid var(--white);
+}
+
+.avatar__extra_large {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar__massive {
+  width: 128px;
+  height: 128px;
+}

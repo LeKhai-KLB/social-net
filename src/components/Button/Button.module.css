@@ -1,0 +1,42 @@
+.button {
+  color: var(--white) !important;
+  height: unset;
+  border: none;
+  padding: 8px 16px;
+}
+
+.button__size_large {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.button__size_medium {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.button__functional {
+  background: var(--medium-gray);
+}
+
+.button__functional:hover {
+  background: var(--medium-gray) !important;
+}
+
+.button__functional:active {
+  background: var(--medium-gray) !important;
+  border-color: none;
+}
+
+.button__navigator {
+  background: var(--light-blue);
+}
+
+.button__navigator:hover {
+  background: var(--light-blue) !important;
+}
+
+.button__navigator:active {
+  background: var(--light-blue) !important;
+  border-color: none;
+}

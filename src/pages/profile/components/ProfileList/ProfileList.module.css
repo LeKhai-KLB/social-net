@@ -1,0 +1,46 @@
+.profile_list :global .ant-empty-description {
+  color: var(--white);
+}
+
+.profile_card {
+  background-color: var(--highlight-theme);
+  border: none;
+  padding: 12px;
+}
+
+.profile_card:hover {
+  cursor: pointer;
+}
+
+.profile_meta {
+  margin-top: 24px !important;
+}
+
+.profile_meta :global .ant-card-meta-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile_meta :global .ant-card-meta-description {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--label);
+}
+
+.profile_drawer {
+  background-color: var(--highlight-theme) !important;
+}
+
+.profile_drawer :global .ant-drawer-header {
+  border-bottom: none;
+}
+
+.profile_drawer :global .ant-drawer-body {
+  padding-top: 0px;
+}
+
+.profile_drawer :global .ant-drawer-close {
+  color: var(--white) !important;
+}

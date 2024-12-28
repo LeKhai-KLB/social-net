@@ -1,0 +1,20 @@
+.modal {
+  top: 50px !important;
+}
+
+.modal :global .ant-modal-close-x {
+  color: var(--white);
+}
+
+.modal :global .ant-modal-body {
+  max-height: 68vh;
+  overflow: auto;
+}
+
+.modal :global .ant-modal-header {
+  margin-bottom: 24px;
+}
+
+.modal :global .ant-modal-footer {
+  margin-top: 32px;
+}

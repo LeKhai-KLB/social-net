@@ -1,0 +1,20 @@
+.profile_page {
+  padding: 36px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: var(--deep-theme);
+}
+
+.profile_page__title {
+  margin-top: 0px;
+}
+
+.profile_page__ic_plus {
+  width: 16px;
+  height: 16px;
+  background: url(../../assets/images/99145a0d-fff1-494e-b0fe-cd4626bc3ff0.png)
+    no-repeat center;
+  background-size: cover;
+  margin-right: 4px;
+}

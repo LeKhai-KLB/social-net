@@ -1,0 +1,134 @@
+.layout :global .ant-layout-sider-trigger {
+  background: var(--highlight-theme);
+}
+
+/* Logo */
+.layout__logo_container {
+  height: 70px;
+  background: var(--highlight-theme);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  overflow: visible;
+}
+
+.layout__logo_container__no_collapse {
+  justify-content: left;
+  margin-left: 32px;
+}
+
+.layout__logo_img {
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  border: 4px solid var(--white);
+  border-radius: 10px;
+  position: relative;
+  overflow: visible;
+}
+
+.layout__logo_sub_img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: -10%;
+  right: -10%;
+  border: 4px solid var(--white);
+  border-radius: 50%;
+}
+
+.layout__logo_label {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+}
+/* End Logo */
+
+/* Sider */
+.layout__sider {
+  background: var(--highlight-theme);
+}
+/* End sider */
+
+/* Menu */
+.layout__menu {
+  background: var(--highlight-theme);
+  padding: 8px;
+  font-weight: 700;
+}
+
+.layout__menu :global .ant-menu-item {
+  transition: unset !important;
+  height: 48px;
+  margin-bottom: 8px !important;
+  box-sizing: border-box;
+}
+
+.layout__menu :global .ant-menu-item-selected {
+  background: var(--overlay-theme);
+  border: 1px solid var(--medium-gray);
+}
+/* End menu */
+
+/* Menu item */
+.layout__ic_profile {
+  width: 20px;
+  height: 20px;
+  background: url(../assets/images/ab602957-d50f-4f52-9269-99f22992539b.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  margin-right: 12px;
+}
+
+.layout__ic_activity {
+  width: 20px;
+  height: 20px;
+  background: url(../assets/images/aeb8ea63-799b-45da-aaea-a28d4f1b66c2.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  margin-right: 12px;
+}
+
+.layout__ic_menu__collapsed {
+  vertical-align: -0.5em !important;
+}
+/* End menu item */
+
+/* Header */
+.layout__header {
+  height: 70px;
+  background: var(--highlight-theme);
+  box-shadow: 0 -1px 0 0 var(--overlay-theme) inset;
+  padding: 0px 24px;
+}
+
+.layout__header_input_icon {
+  width: 20px;
+  height: 20px;
+  background: url(../assets/images/2b35d0b8-abc5-46b0-ab0c-392aaec14267.png)
+    no-repeat center;
+  background-size: cover;
+  margin-right: 8px;
+}
+
+.layout__header :global .ant-input-affix-wrapper :global .ant-input {
+  color: var(--white);
+}
+
+.layout__header
+  :global
+  .ant-input-affix-wrapper
+  :global
+  .ant-input::placeholder {
+  color: var(--dim-gray);
+}
+/* End header */
+
+.layout__content {
+  background: var(--deep-theme);
+}
