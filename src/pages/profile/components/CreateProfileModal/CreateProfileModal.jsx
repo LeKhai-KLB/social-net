@@ -144,20 +144,20 @@ const CreateProfileModal = forwardRef(({ onConfirm, open }, ref) => {
           label={<Label>Birth date</Label>}
           name={"birthdate"}
         >
-          <Row gutter={12}>
-            <Col span={7}>
+          <Row>
+            <Col span={6} style={{ marginRight: "24px" }}>
               <Form.Item name="day" noStyle>
                 <Input type="number" variant="sink" placeholder="Date" />
               </Form.Item>
             </Col>
 
-            <Col span={7}>
+            <Col span={6} style={{ marginRight: "24px" }}>
               <Form.Item name="month" noStyle>
                 <Input type="number" variant="sink" placeholder="Month" />
               </Form.Item>
             </Col>
 
-            <Col span={10}>
+            <Col span={9}>
               <Form.Item name="year" noStyle>
                 <Input type="number" variant="sink" placeholder="Year" />
               </Form.Item>
